@@ -1,6 +1,12 @@
 var user = {
     name: "Selva",
-    age: 24,
-    isDeveloper: true
+    city: "Coimbatore",
+    age: 24
 };
 console.log(user);
+var newUser = {
+    name: 'Nithish',
+    dep: '3D',
+    printDetails: function (message) { return message; }
+};
+console.log(newUser.printDetails("Hello"));
