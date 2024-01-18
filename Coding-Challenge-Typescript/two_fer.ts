@@ -6,4 +6,4 @@ function two_fer(name? : string) : string{
     }
 }
 
-two_fer("Selva")
+console.log(two_fer("Selva"))
